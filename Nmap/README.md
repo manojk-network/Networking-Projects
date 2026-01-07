@@ -53,7 +53,7 @@ For NOC and Security engineers, aggressive scanning helps quickly identify expos
 - This screenshot shows OS detection (Linux) and default Nmap script outputs, giving insight into the target system behavior.
 
 ### OS $ Service info
-![image alt](https://github.com/manojk-network/Networking-projects/blob/9ecabd4e470472616ca878b42026e780d2921e12/Nmap/Screenshots/OS%20%26%20service%20info.png)
+![image alt](https://github.com/manojk-network/Networking-Projects/blob/eff3f8e24445bcbfd67411cc67f7186dadea264c/Nmap/Screenshots/OS%20%26%20Service%20info.png)
 - This output highlights service versions such as OpenSSH and Apache HTTPD, useful for vulnerability assessment.
 
 ### Open ports & services
