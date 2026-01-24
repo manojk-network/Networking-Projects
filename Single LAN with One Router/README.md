@@ -84,8 +84,14 @@ ping 192.168.1.2
 All pings should return Reply confirming successful LAN connectivity.
 
 ## Screenshots
-
-
+### Topology 
+![img alt](https://github.com/manojk-network/Networking-Projects/blob/0842c29a7190fe2d8488078600fd91e73f1b05e6/Single%20LAN%20with%20One%20Router/Screenshots/Screenshot%202026-01-24%20220916.png)
+### Router config 
+![img alt](https://github.com/manojk-network/Networking-Projects/blob/0842c29a7190fe2d8488078600fd91e73f1b05e6/Single%20LAN%20with%20One%20Router/Screenshots/Screenshot%202026-01-24%20221110.png)
+### PC IP config
+img ![alt](https://github.com/manojk-network/Networking-Projects/blob/833edf7e55c3c041cb064d28d613d4811233d64b/Single%20LAN%20with%20One%20Router/Screenshots/PC%20Config.png) 
+### Ping test 
+![img alt](https://github.com/manojk-network/Networking-Projects/blob/833edf7e55c3c041cb064d28d613d4811233d64b/Single%20LAN%20with%20One%20Router/Screenshots/Ping.png)
 ## Video Demo
 
 A short video demo was recorded showing:
@@ -98,6 +104,7 @@ PC IP configuration
 
 Successful ping tests
 
+https://youtu.be/zbVyYQ_lMYg
 
 🧠 Key Learning Outcomes
 
