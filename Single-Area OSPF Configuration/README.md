@@ -149,7 +149,13 @@ Screenshots
 ![img alt](https://github.com/manojk-network/Networking-Projects/blob/0c5ef7fec2488eb996116366fc1bd301a6647c26/Single-Area%20OSPF%20Configuration/Screenshots/PC0%20GUI%20config.png)
 
 - ## OSPF Neighbors
-![img alt](
+![img alt](https://github.com/manojk-network/Networking-Projects/blob/bc65df56ef27250ac65a0f4b4e6bce67f3e745ce/Single-Area%20OSPF%20Configuration/Screenshots/OSPF%20neighbors.png)
+
+- ## Ping Test
+![img alt](https://github.com/manojk-network/Networking-Projects/blob/0c5ef7fec2488eb996116366fc1bd301a6647c26/Single-Area%20OSPF%20Configuration/Screenshots/PC-to-PC%20Ping.png)
+
+Youtube Video
+https://youtu.be/6Kq6Pc4xXaY
 
 ## Conclusion
 In this project, a single-area OSPF network was successfully implemented using three routers and three LANs.  
