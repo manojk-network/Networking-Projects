@@ -4,35 +4,40 @@ This project demonstrates dynamic routing using RIP version 2 between two router
 All router configurations are done via CLI, while PCs are configured via GUI. End-to-end connectivity is verified using ICMP ping.
 ________________________________________
 ## Topology Summary
-•	Router0 → LAN 1 (192.168.1.0/24)
-•	Router1 → LAN 2 (192.168.2.0/24)
-•	Routers interconnected via GigabitEthernet interfaces
-•	Routing protocol: RIP v2
-•	Cable connection: Automatic
+-	Router0 → LAN 1 (192.168.1.0/24)
+-	Router1 → LAN 2 (192.168.2.0/24)
+-	Routers interconnected via GigabitEthernet interfaces
+-	Routing protocol: RIP v2
+-	Cable connection: Automatic
 ________________________________________
-## IP Addressing
-### Router0
-Interface	IP Address	Subnet Mask
-G0/0 (LAN)	192.168.1.1	255.255.255.0
-G0/1 (WAN)	10.0.0.1	255.255.255.252
-### Router1
-Interface	IP Address	Subnet Mask
-G0/0 (LAN)	192.168.2.1	255.255.255.0
-G0/1 (WAN)	10.0.0.2	255.255.255.252
-________________________________________
-### PCs
-### LAN 1
-PC	IP Address	Subnet Mask	Default Gateway
-PC0	192.168.1.2	255.255.255.0	192.168.1.1
-PC1	192.168.1.3	255.255.255.0	192.168.1.1
+## Router IP Addressing
+### IP Addressing Scheme
 
-### LAN 2
-PC	IP Address	Subnet Mask	Default Gateway
-PC2	192.168.2.2	255.255.255.0	192.168.2.1
-PC3	192.168.2.3	255.255.255.0	192.168.2.1
-________________________________________
-### Router Configuration
-## Router0
+### Router IP Addressing
+
+| Router  | Interface | IP Address   | Subnet Mask       |
+|---------|-----------|--------------|-------------------|
+| Router0 | G0/0 (LAN) | 192.168.1.1  | 255.255.255.0     |
+| Router0 | G0/1 (WAN) | 10.0.0.1     | 255.255.255.252   |
+| Router1 | G0/0 (LAN) | 192.168.2.1  | 255.255.255.0     |
+| Router1 | G0/1 (WAN) | 10.0.0.2     | 255.255.255.252   |
+
+### LAN 1 – PC IP Addressing
+
+| Device | IP Address   | Subnet Mask     | Default Gateway |
+|--------|--------------|-----------------|-----------------|
+| PC0    | 192.168.1.2  | 255.255.255.0   | 192.168.1.1     |
+| PC1    | 192.168.1.3  | 255.255.255.0   | 192.168.1.1     |
+
+### LAN 2 – PC IP Addressing
+
+| Device | IP Address   | Subnet Mask     | Default Gateway |
+|--------|--------------|-----------------|-----------------|
+| PC2    | 192.168.2.2  | 255.255.255.0   | 192.168.2.1     |
+| PC3    | 192.168.2.3  | 255.255.255.0   | 192.168.2.1     |
+_______________________________________
+## Router Configuration
+### Router0
 - enable
 - configure terminal
   
@@ -75,9 +80,9 @@ ________________________________________
 - write memory
 ________________________________________
 ### Verification
-•	Connectivity: Use ICMP ping between PCs across LANs
-•	RIP Verification: View router CLI showing router rip configuration
-End-to-end connectivity confirms that RIP routing is working correctly.
+- Connectivity: Use ICMP ping between PCs across LANs
+- RIP Verification: View router CLI showing router rip configuration
+- End-to-end connectivity confirms that RIP routing is working correctly.
 ________________________________________
 ## Screenshots 
 ### 1.	Network Topology Overview
@@ -104,9 +109,9 @@ ________________________________________
 https://youtu.be/cpv3PIr43Dc?si=wJc4KnbKDeFMj2ZA
 ________________________________________
 ## Key Learnings
-•	Configured RIP v2 dynamic routing
-•	Learned automatic route exchange between routers
-•	Verified end-to-end connectivity using ICMP ping
-•	Practiced CLI-based router configuration and PC GUI IP assignment
+-	Configured RIP v2 dynamic routing
+-	Learned automatic route exchange between routers
+-	Verified end-to-end connectivity using ICMP ping
+-	Practiced CLI-based router configuration and PC GUI IP assignment
 
 
