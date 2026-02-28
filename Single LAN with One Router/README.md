@@ -37,6 +37,7 @@ Switch ↔ PCs : Copper Straight-Through
 | PC1     | NIC      | 192.168.1.3   | 255.255.255.0    | 192.168.1.1    |
 
 ## Router Configuration (CLI)
+```
 - enable
 - configure terminal
 - hostname Router0
@@ -45,29 +46,32 @@ Switch ↔ PCs : Copper Straight-Through
 - no shutdown
 - exit
 - show ip interface brief
+```
 ## Expected result:
 - Interface status should be up/up
 
 ## PC Configuration
 ### PC0
-
+```
 IP Address: 192.168.1.2
 
 Subnet Mask: 255.255.255.0
 
 Default Gateway: 192.168.1.1
+```
 
 ### PC1
+```
 
 IP Address: 192.168.1.3
 
 Subnet Mask: 255.255.255.0
 
 Default Gateway: 192.168.1.1
-
-(Insert PC IP configuration screenshots here)
+```
 
 ## Verification & Testing
+```
 From Router0:
 ping 192.168.1.2
 ping 192.168.1.3
@@ -79,7 +83,7 @@ ping 192.168.1.3
 From PC1:
 ping 192.168.1.1
 ping 192.168.1.2
-
+```
 
 All pings should return Reply confirming successful LAN connectivity.
 
@@ -106,8 +110,8 @@ Successful ping tests
 
 https://youtu.be/zbVyYQ_lMYg
 
-🧠 Key Learning Outcomes
-
+## Key Learning Outcomes
+```
 Understanding Single LAN architecture
 
 Basic router interface configuration
@@ -115,3 +119,4 @@ Basic router interface configuration
 Importance of default gateway
 
 Verifying network connectivity using ping
+```
