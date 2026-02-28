@@ -49,6 +49,7 @@ All routers participate in **OSPF Area 0**.
 ## Router Configuration
 
 ### Router 0
+```
 - enable
 - configure terminal
 - hostname R0
@@ -72,10 +73,11 @@ All routers participate in **OSPF Area 0**.
 - network 192.168.10.0 0.0.0.255 area 0
 - network 192.168.40.0 0.0.0.3 area 0
 - network 192.168.60.0 0.0.0.3 area 0
-
+```
 ---
 
 ### Router 1
+```
 - enable
 - configure terminal
 - hostname R1
@@ -99,10 +101,11 @@ All routers participate in **OSPF Area 0**.
 - network 192.168.40.0 0.0.0.3 area 0
 - network 192.168.50.0 0.0.0.3 area 0
 
-
+```
 ---
 
 ### Router 2
+```
 - enable
 - configure terminal
 - hostname R2
@@ -124,13 +127,15 @@ All routers participate in **OSPF Area 0**.
 - network 192.168.30.0 0.0.0.255 area 0
 - network 192.168.50.0 0.0.0.3 area 0
 - network 192.168.60.0 0.0.0.3 area 0
-
+```
 ---
 
 ## Verification Commands
+```
 - show ip ospf neighbor
 - show ip route ospf
 - ping <destination-ip>
+```
 
 Successful OSPF neighbors and `O` routes confirm correct configuration.
 
