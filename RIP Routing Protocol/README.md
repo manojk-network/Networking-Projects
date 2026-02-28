@@ -38,6 +38,7 @@ ________________________________________
 _______________________________________
 ## Router Configuration
 ### Router0
+```
 - enable
 - configure terminal
   
@@ -57,8 +58,9 @@ _______________________________________
 
 - end
 - write memory
-  
+  ```
 ## Router1
+```
 - enable
 - configure terminal
 
@@ -78,6 +80,7 @@ _______________________________________
 
 - end
 - write memory
+```
 ________________________________________
 ### Verification
 - Connectivity: Use ICMP ping between PCs across LANs
