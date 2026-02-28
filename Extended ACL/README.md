@@ -44,7 +44,7 @@ Step 1 – Configure PCs and Server
 ```
 ```
 ```
-## step 1 - PCs Configuration
+## Step 1 - PCs Configuration
 ```
 # LAN1 PCs
 PC1> IP: 192.168.10.1   Subnet: 255.255.255.0  Gateway: 192.168.10.10
