@@ -37,7 +37,7 @@ The goal is to configure a router, switch, DHCP server, and two PCs so that IPs 
 ---
 
 ## Router Configuration (CLI)
-
+```
 - enable
 - configure terminal
 - hostname Router0
@@ -45,14 +45,14 @@ The goal is to configure a router, switch, DHCP server, and two PCs so that IPs 
 - ip address 192.168.1.1 255.255.255.0
 - no shutdown
 - exit
-  
+ ``` 
 ![img alt](https://github.com/manojk-network/Networking-Projects/blob/356a461ed1bd1d01f9d096392eb651957af345c4/DHCP%20LAN/Screenshots/Router%20CLI.png)
 
 ## DHCP Server Configuration
 
 Click DHCP Server → Config → DHCP
 - Create pool:
-
+```
 - Pool Name: LAN2
 - Default Gateway: 192.168.1.1
 - DNS Server: 8.8.8.8
@@ -60,7 +60,7 @@ Click DHCP Server → Config → DHCP
 - Max Users: 50
 - Subnet Mask: 255.255.255.0
 - Enable DHCP
-
+```
 ![img alt](https://github.com/manojk-network/Networking-Projects/blob/988fa6abc6b36eafbf8cd253d56cdae96e41a7f1/DHCP%20LAN/Screenshots/DHCP%20Config.png)
 
 ## PC Configuration
@@ -73,10 +73,11 @@ Click DHCP Server → Config → DHCP
 ## Verification & Testing
 
 ### From PC0:
+```
 - ping 192.168.1.1       # Router
 - ping 192.168.1.21      # PC1
 - ping 192.168.1.10      # DHCP Server
-  
+```  
 ![img alt](https://github.com/manojk-network/Networking-Projects/blob/988fa6abc6b36eafbf8cd253d56cdae96e41a7f1/DHCP%20LAN/Screenshots/Ping%20Test.png)
 
 ## YouTube Video Demo
