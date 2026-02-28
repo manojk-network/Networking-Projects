@@ -43,6 +43,9 @@ Step 1 – Configure PCs and Server
 
 ```
 ```
+```
+## step 1 - PCs Configuration
+```
 # LAN1 PCs
 PC1> IP: 192.168.10.1   Subnet: 255.255.255.0  Gateway: 192.168.10.10
 PC2> IP: 192.168.10.2   Subnet: 255.255.255.0  Gateway: 192.168.10.10
@@ -53,7 +56,9 @@ Server> IP: 10.0.0.2    Subnet: 255.0.0.0      Gateway: 10.0.0.10
 
 ```
 ```
-Step 2 – Router Configuration
+```
+## Step 2 – Router Configuration
+```
 # Router0
 enable
 configure terminal
@@ -95,7 +100,9 @@ ip route 192.168.10.0 255.255.255.0 172.16.10.1
 exit
 ```
 ```
-Step 3 – Extended ACL Configuration
+```
+## Step 3 – Extended ACL Configuration
+```
 # Router0 – ACL toward Router1
 enable
 configure terminal
@@ -118,7 +125,9 @@ Rule 20: Denies PC1 & PC2 from reaching PC3.
 
 Rule 30: Permits all other traffic to avoid network block.
 ```
-Step 4 – Verification
+```
+## Step 4 – Verification
+```
 # Show ACL
 show access-lists
 ```
